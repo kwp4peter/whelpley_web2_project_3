@@ -1,0 +1,513 @@
+@font-face
+{
+	font-family: navFont;
+	src: url(../fonts/TisaSansBold.otf);
+}
+
+@font-face
+{
+	font-family: splashImage;
+	src: url(../fonts/FatFrankHeavy.otf);
+}
+
+@font-face
+{
+	font-family: generalFont;
+	src: url(../fonts/TisaSans.otf);
+}
+
+@font-face
+{
+	font-family: splashSub;
+	src: url(../fonts/AcuminProExtraCondensed.ttf);
+}
+
+.content
+{
+	padding: 40px 0 0 0;
+}
+
+.container-fluid
+{
+	padding: 0 !important;
+}
+
+#indexBody
+{
+	width: 99.2vw;
+}
+
+body
+{
+
+	width: 98vw;
+	background: url("../images/splash.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.col-lg-12
+{
+	top: 10.5vw;
+	padding: 0 !important;
+}
+
+#splashText
+{
+	font-family: splashImage;
+	letter-spacing: 2px;
+	color: white;
+	position: relative;
+	top: 4vw;
+	margin: 0 auto;
+	font-size: 4vw;
+	text-align: center;
+}
+
+#splash
+{	
+	position: relative;
+	z-index: 999;
+	height: 18vw;
+	background-image: url("../images/transparent.png");
+}
+
+#splash p
+{
+	font-family: splashSub;
+	letter-spacing: 2px;
+	font-size: 3vw;
+
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 4vw;
+	color: white;
+
+}
+
+#splashText span
+{
+	color: #ec5a24;
+}
+
+/** END SPLASH **/
+
+/** BEGIN BUTTONS **/
+
+#buttons
+{
+	margin-top: 250px;
+}
+
+a
+{
+	text-decoration: none !important;
+}
+
+#starter
+{
+	background: url("../images/starter.jpg") no-repeat center;
+
+	margin: 0 auto;
+
+	width: 186px;
+	height: 250px;
+	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+	border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+
+	border: 7px solid white;
+
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+#starter:hover
+{
+	width: 250px;
+	border-radius: 10px;
+	border: 7px solid #ec5a24;
+
+	background: url("../images/starter-dark.jpg") no-repeat center;
+}
+
+#starter h2
+{
+	color: white;
+	opacity: 0;
+	font-size: 33px;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 235px;
+	margin-top: -80px;
+	font-family: splashIMage;
+	font-weight: bold;
+
+	-webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+#starter h1
+{
+	background: url("../images/transparent.png");
+	color: white;
+	opacity: 100;
+	width: 150px;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 110px;
+	font-family: generalFont;
+	font-weight: bold;
+	padding-top: 5px;
+
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+#starter:hover h2
+{
+	opacity: 100;
+}
+
+#starter:hover h1
+{
+	opacity: 0;
+}
+
+#middler
+{
+	background: url("../images/middler.jpg") no-repeat center;
+
+	margin: 0 auto;
+
+	width: 186px;
+	height: 250px;
+	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+	border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+
+	border: 7px solid white;
+
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+#middler:hover
+{
+	width: 250px;
+	border-radius: 10px;
+	border: 7px solid #ec5a24;
+
+	background: url("../images/middler-dark.jpg") no-repeat center;
+}
+
+#middler h2
+{
+	color: white;
+	opacity: 0;
+	font-size: 35px;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 235px;
+	margin-top: -90px;
+	font-family: splashIMage;
+	font-weight: bold;
+
+	-webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+#middler h1
+{
+	background: url("../images/transparent.png");
+	color: white;
+	opacity: 100;
+	width: 150px;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 110px;
+	font-family: generalFont;
+	font-weight: bold;
+	padding-top: 5px;
+
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+#middler:hover h2
+{
+	opacity: 100;
+}
+
+#middler:hover h1
+{
+	opacity: 0;
+}
+
+
+#finisher
+{
+	background: url("../images/finisher.jpg") no-repeat center;
+
+	margin: 0 auto;
+
+	width: 186px;
+	height: 250px;
+	
+	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+	border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+
+	border: 7px solid white;
+
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+#finisher:hover
+{
+	width: 250px;
+	border-radius: 10px;
+	border: 7px solid #ec5a24;
+
+	background: url("../images/finisher-dark.jpg") no-repeat center;
+}
+
+#finisher h2
+{
+	color: white;
+	opacity: 0;
+	font-size: 45px;
+	letter-spacing: 2px;
+	text-align: center;
+	width: 242px;
+	margin-top: -120px;
+	font-family: splashIMage;
+	font-weight: bold;
+
+	-webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+#finisher h1
+{
+	background: url("../images/transparent.png");
+	color: white;
+	opacity: 100;
+	width: 150px;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 110px;
+	font-family: generalFont;
+	font-weight: bold;
+	padding-top: 5px;
+
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+#finisher:hover h2
+{
+	opacity: 100;
+}
+
+#finisher:hover h1
+{
+	opacity: 0;
+}
+
+/** END BUTTONS **/
+
+.navbar-default .nav li a
+{
+	font-family: navFont;
+}
+
+.navbar-default .nav li a:hover
+{
+	color: white;
+	background-color: #ec5a24;
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+.navbar-default .nav li.active a
+{
+	color: #ec5a24;
+	background-color: #eff0f2;
+	-webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+
+.navbar-default .nav li.active a:hover
+{
+	color: white;
+	background-color: #ec5a24;
+}
+
+.navbar-brand
+{
+
+	padding-bottom: 5px;
+	height: 30px;
+	top: -9px;
+	width: 164px;
+	margin: 0 auto;
+
+	position: absolute;
+	left: 50%;
+	margin-left: -82px !important;
+	display: block;
+}
+
+
+/** USE IF HAMBURGER MENU IS PRESENT **/
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    border: none;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+	background-color: #ec5a24;
+	width: 18px;
+	height: 3px;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar
+{
+	background-color: white;
+
+}
+
+.navbar-default .navbar-toggle:hover
+{
+	background-color: #ec5a24;
+}
+
+/** END NAV STYLE **/
+
+#content
+{
+	top: 100px;
+	padding-top: 50px;
+	border-radius: 15px;
+	background-color: white;
+
+	float: none;
+	margin: 0 auto;
+}
+
+#recipeHeader
+{
+	text-align: center;
+	font-family: splashImage;
+	font-size: 2.6vmax;
+	color: #ec5a24;
+	padding-bottom: 20px;
+	margin-top: -20px;
+}
+
+#ingredients h3
+{
+	font-size: 15px;
+	color: #ec5a24;
+}
+
+#ingredients h2
+{
+	font-family: splashImage;
+	letter-spacing: 2px;
+}
+
+#ingredients h2 span
+{
+	font-family: splashSub;
+	font-size: 1.6vmax;
+}
+
+#ingredients
+{
+	font-family: generalFont;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	position: relative;
+	padding-bottom: 10px;
+	top: 30px;
+	border-top: 3px solid #ec5a24;
+	border-bottom: 3px solid #ec5a24;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#preparation
+{
+	font-family: generalFont;
+	letter-spacing: 0.5px;
+	position: relative;
+	top: 50px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#preparation h2
+{
+	font-family: splashImage;
+	letter-spacing: 2px;
+}
+
+#prep span
+{
+	color: #ec5a24;
+}
+
+#pdf
+{
+	font-family: generalFont;
+	font-weight: bold;
+	font-size: 20px;
+	top: 75px;
+	letter-spacing: 0.5px;
+	position: relative;
+	border-top: 3px solid #ec5a24;
+	padding-top: 10px;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	height: 400px;
+}
+
+#dlButton
+{
+	width: 150px;
+	height: 50px;
+
+	margin: 0 auto;
+	background: url("../images/download.png");
+	-webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+#dlButton span
+{
+	visibility: hidden;
+}
+
+
+#dlButton:hover
+{
+	background: url("../images/downloadhover.png");
+}
+
+
+/** END INDEX STYLE **/
+
+

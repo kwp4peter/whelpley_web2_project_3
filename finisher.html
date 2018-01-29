@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>What is this shit</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap.offcanvas.css" rel="stylesheet">
+    <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+
+        input[type="checkbox"].styled:checked + label:after,
+        input[type="radio"].styled:checked + label:after,
+        .checkbox input[type=checkbox]:checked + label:after {
+            font-family: 'Glyphicons Halflings';
+            content: "\e013";
+        }
+
+        input[type="checkbox"].styled:checked label:after,
+        input[type="radio"].styled:checked label:after,
+        .checkbox label:after {
+            padding-left: 4px;
+            padding-top: 2px;
+            font-size: 9px;
+        }
+
+    </style>
+
+
+  </head>
+  <body>
+
+         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+         <div class="container">
+
+          <div class="navbar-header">
+
+            <a class="navbar-brand" href="index.html">
+
+                <img alt="Brand" src="images/logo.png">
+
+            </a>
+
+            <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
+
+              <span class="sr-only">Toggle Navigation</span>
+
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+
+            </button> 
+
+          </div>
+
+          <div class="navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
+
+            <ul class="nav navbar-nav navbar-right">
+
+              <li><a href="index.html">Home</a></li>
+              
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recipes <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="starter.html">Starter</a></li>
+                    <li role="seperator" class="divider"></li>
+                    <li class="active"><a href="middler.html">Middler</a></li>
+                    <li role="seperator" class="divider"></li>
+                    <li><a href="finisher.html">Finisher</a></li>
+                  </ul>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </nav> <!-- nav -->
+
+        <!-- splash -->
+
+        <div class="container-fluid">
+
+	        <div class="row">
+
+	        	<div class="col-md-8" id="content">
+
+                <div class="row"><h1 id="recipeHeader">IT'S TECHNICALLY A FRUIT, I GUESS</h1></div>
+
+                <div align="center" class="embed-responsive embed-responsive-16by9" id="vidDiv">
+                  <video controls class="embed-responsive-item" id="myVideo">
+                      <source src="assets/icecream.mp4" type="video/mp4">
+                  </video>
+
+                   <script>
+                    var vid = document.getElementById("myVideo");
+                    vid.volume = 0.2;
+                  </script>
+
+                </div>
+
+                <div class="row">
+
+                <div class="col-xs-12">
+
+                    <div id="ingredients">
+
+                      <h2>INGREDIENTS <span>(check the list off as you waddle around the store)</span></h2>
+
+                         <div class="checkbox checkbox-circle checkbox-success">
+                          <input type="checkbox" id="checkbox1" class="styled"><label for="checkbox1">16 oz heavy whipping cream</label>
+                         </div>
+
+                         <div class="checkbox checkbox-circle checkbox-success">
+                          <input type="checkbox" id="checkbox1" class="styled"><label for="checkbox1">14 oz condensed milk</label>
+                         </div>
+
+                         <div class="checkbox checkbox-circle checkbox-success">
+                          <input type="checkbox" id="checkbox1" class="styled"><label for="checkbox1">1 cup strawberries</label>
+                         </div>
+
+                         <div class="checkbox checkbox-circle checkbox-success">
+                          <input type="checkbox" id="checkbox1" class="styled"><label for="checkbox1">1/4 cup powdered sugar</label>
+                         </div>
+
+                         <div class="checkbox checkbox-circle checkbox-success">
+                          <input type="checkbox" id="checkbox1" class="styled"><label for="checkbox1">3 ENTIRE. WHOLE. GOD DAMN AVOCADOS</label>
+                         </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div id="preparation">
+
+                    <h2>PREPARATION</h2>
+
+                      <ol id="prep">
+                        <li>Whisk heavy whipping cream until you reach soft peaks</li>
+
+                        <li>blend the strawberries, avocados and condensed milk using only a gilded whisk cast from gold of the ancient city of Tenochtitlan as to not disturb the avocados</li>
+
+                        <li>Mix everything into the whipped cream and add powdered sugar</li>
+
+                        <li>Place the mix into the avocado shells and add a thin slice of strawberry on top</li>
+
+                        <li>As an option, put leftovers in a bowl with slices of strawberry.  I don't know why you would have any leftovers though.  Eat that shit up.</li>
+
+                        <li>Freeze for two hours, then enjoy!</li>
+                      </ol>
+
+                    </div>
+
+                    <div id="pdf">
+
+                      <p>In case Edison is still a witch in your world, here's a nice soft button that will hand deliver a shopping list pdf directly into your phone box.  That way you can take your shopping list with you to the store!</p>
+
+                      <a id="download" href="downloads/icecream.pdf" download>
+                          <div id="dlButton"><span id="dlButton">Download PDF</span></div>
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div> <!-- end row-->
+
+				    </div> <!-- col md 8 content -->
+
+          </div> <!-- row -- >
+
+		    </div>  <!-- container-fluid -->	
+
+        </div>
+
+        </div>
+
+        </nav>	   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+    </script>
+
+    <script src="js/bootstrap.offcanvas.js"></script>
+
+  </body>
+
+</html>
